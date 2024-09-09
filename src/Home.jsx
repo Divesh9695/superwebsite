@@ -22,13 +22,24 @@ const Home = () => {
 
                 <p>you are ready to joine tha five guys family?</p>
             </div>
-            <div className='Location'>
+            <div className='rock'>
+            
+            <div className='Search-box'>
                 <input type="Search of job tittle" placeholder='Search of job tittle' className='search_text_box' />
                 <div >
                     <button className='home_btn'>Find Job</button>
                 </div>
             </div>
+            <div className='Location'>
+                <input type="Search of job tittle" placeholder='Search of job tittle' className='location_text_box' />
+                <div >
+                    <button className='home_btn'>Find Job</button>
+                </div>
+            </div>
+            </div>
             <div className='m'>
+            
+            
                 <p className='tip'> Get tailored job recommendations blased on your interests.</p>
                 <button className='z'>Get started</button>
             </div>
